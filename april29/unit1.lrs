@@ -1,0 +1,58 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3'/'#3#6'Height'#3'b'#2#3'Top'#3#232#0#5'Wi'
+  +'dth'#3'R'#2#7'Caption'#6'!'#208#160#208#176#208#177#208#190#209#130#208#176
+  +' '#208#189#208#176#208#180' UI '#208#178' Lazarus'#12'ClientHeight'#3'I'#2
+  +#11'ClientWidth'#3'R'#2#13'DesignTimePPI'#2'x'#4'Menu'#7#9'MainMenu1'#9'Popu'
+  +'pMode'#7#10'pmExplicit'#8'Position'#7#15'poDesktopCenter'#10'LCLVersion'#6#8
+  +'2.0.10.0'#0#7'TButton'#7'Button1'#22'AnchorSideLeft.Control'#7#5'Edit1'#21
+  +'AnchorSideTop.Control'#7#5'Owner'#23'AnchorSideRight.Control'#7#5'Owner'#20
+  +'AnchorSideRight.Side'#7#9'asrBottom'#4'Left'#3'$'#1#6'Height'#2'r'#3'Top'#2
+  +#10#5'Width'#3'$'#1#7'Anchors'#11#5'akTop'#7'akRight'#0#18'BorderSpacing.Lef'
+  +'t'#3#142#1#17'BorderSpacing.Top'#2#10#19'BorderSpacing.Right'#2#10#7'Captio'
+  +'n'#6#18#208#146#209#139#209#135#208#184#209#129#208#187#208#184#209#130#209
+  +#140#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2#0#0#0#6'TLabel'#6'Label1'#21
+  +'AnchorSideTop.Control'#7#5'Owner'#23'AnchorSideRight.Control'#7#5'Edit1'#21
+  +'AnchorSideBottom.Side'#7#9'asrBottom'#4'Left'#2#25#6'Height'#2#20#3'Top'#2
+  +#25#5'Width'#2'K'#18'BorderSpacing.Left'#2#25#17'BorderSpacing.Top'#2#25#19
+  +'BorderSpacing.Right'#2#10#7'Caption'#6#18#208#146#208#178#208#181#208#180
+  +#208#184#209#130#208#181' a :'#11'ParentColor'#8#0#0#6'TLabel'#6'Label2'#22
+  +'AnchorSideLeft.Control'#7#5'Owner'#21'AnchorSideTop.Control'#7#6'Label1'#23
+  +'AnchorSideRight.Control'#7#5'Edit2'#4'Left'#2#25#6'Height'#2#20#3'Top'#2'Z'
+  +#5'Width'#2'L'#18'BorderSpacing.Left'#2#25#17'BorderSpacing.Top'#2'A'#19'Bor'
+  +'derSpacing.Right'#2#1#7'Caption'#6#18#208#146#208#178#208#181#208#180#208
+  +#184#209#130#208#181' b :'#11'ParentColor'#8#0#0#5'TEdit'#5'Edit1'#22'Anchor'
+  +'SideLeft.Control'#7#6'Label1'#21'AnchorSideTop.Control'#7#5'Owner'#23'Ancho'
+  +'rSideRight.Control'#7#7'Button1'#20'AnchorSideRight.Side'#7#9'asrBottom'#24
+  +'AnchorSideBottom.Control'#7#5'Edit2'#4'Left'#2'n'#6'Height'#2#28#3'Top'#2#24
+  +#5'Width'#2'J'#7'Anchors'#11#6'akLeft'#7'akRight'#8'akBottom'#0#18'BorderSpa'
+  +'cing.Left'#2'U'#17'BorderSpacing.Top'#2#25#19'BorderSpacing.Right'#3#144#1
+  +#20'BorderSpacing.Bottom'#2#30#8'TabOrder'#2#1#4'Text'#6#3'3,5'#0#0#5'TEdit'
+  +#5'Edit2'#22'AnchorSideLeft.Control'#7#6'Label2'#23'AnchorSideRight.Control'
+  +#7#7'Button1'#20'AnchorSideRight.Side'#7#9'asrBottom'#24'AnchorSideBottom.Co'
+  +'ntrol'#7#6'Label3'#4'Left'#2'n'#6'Height'#2#28#3'Top'#2'R'#5'Width'#2'J'#7
+  +'Anchors'#11#6'akLeft'#7'akRight'#8'akBottom'#0#18'BorderSpacing.Left'#2'U'
+  +#19'BorderSpacing.Right'#3#144#1#20'BorderSpacing.Bottom'#2#10#8'TabOrder'#2
+  +#2#4'Text'#6#4'-4,2'#0#0#6'TLabel'#6'Label3'#22'AnchorSideLeft.Control'#7#5
+  +'Owner'#4'Left'#2#20#6'Height'#2#20#3'Top'#2'x'#5'Width'#3'P'#1#18'BorderSpa'
+  +'cing.Left'#2#20#7'Caption'#6'R('#208#148#208#181#208#185#209#129#209#130#208
+  +#178#208#184#209#130#208#181#208#187#209#140#208#189#209#139#208#181' '#209
+  +#135#208#184#209#129#208#187#208#176' '#208#191#208#184#209#136#209#131#209
+  +#130#209#129#209#143' '#209#135#208#181#209#128#208#181#208#183' '#208#183
+  +#208#176#208#191#209#143#209#130#209#131#209#142')'#5'Color'#7#7'clWhite'#11
+  +'ParentColor'#8#11'Transparent'#8#0#0#11'TOpenDialog'#11'OpenDialog1'#10'Def'
+  +'aultExt'#6#3'.re'#4'Left'#3#160#0#3'Top'#3#216#1#0#0#9'TMainMenu'#9'MainMen'
+  +'u1'#4'Left'#2'`'#3'Top'#3#216#1#0#9'TMenuItem'#9'MenuItem1'#7'Caption'#6#14
+  +#208#158#209#130#208#186#209#128#209#139#209#130#209#140#7'OnClick'#7#14'Men'
+  +'uItem1Click'#0#0#9'TMenuItem'#9'MenuItem2'#7'Caption'#6#18#208#161#208#190
+  +#209#133#209#128#208#176#208#189#208#184#209#130#209#140#7'OnClick'#7#14'Men'
+  +'uItem2Click'#0#0#9'TMenuItem'#9'MenuItem3'#7'Caption'#6#29#208#161#208#190
+  +#209#133#209#128#208#176#208#189#208#184#209#130#209#140' '#208#190#209#130
+  +#209#135#209#145#209#130#7'OnClick'#7#14'MenuItem3Click'#0#0#9'TMenuItem'#9
+  +'MenuItem4'#7'Caption'#6#14#208#161#208#191#209#128#208#176#208#178#208#186
+  +#208#176#7'OnClick'#7#14'MenuItem4Click'#0#0#9'TMenuItem'#9'MenuItem5'#7'Cap'
+  +'tion'#6#10#208#146#209#139#209#133#208#190#208#180#7'OnClick'#7#14'MenuItem'
+  +'5Click'#0#0#0#11'TSaveDialog'#11'SaveDialog1'#4'Left'#2'('#3'Top'#3#216#1#0
+  +#0#0
+]);
