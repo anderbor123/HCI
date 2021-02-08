@@ -1,0 +1,161 @@
+object Form1: TForm1
+  Left = 413
+  Height = 610
+  Top = 159
+  Width = 594
+  Caption = 'Работа над UI в Lazarus'
+  ClientHeight = 585
+  ClientWidth = 594
+  DesignTimePPI = 120
+  Menu = MainMenu1
+  PopupMode = pmExplicit
+  Position = poDesktopCenter
+  LCLVersion = '2.0.10.0'
+  object Button1: TButton
+    AnchorSideLeft.Control = Edit1
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Memo1
+    Left = 292
+    Height = 114
+    Top = 10
+    Width = 292
+    Anchors = [akTop, akRight]
+    BorderSpacing.Left = 398
+    BorderSpacing.Top = 10
+    BorderSpacing.Right = 10
+    Caption = 'Вычислить'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    AnchorSideLeft.Control = Memo1
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Edit1
+    AnchorSideBottom.Side = asrBottom
+    Left = 25
+    Height = 20
+    Top = 25
+    Width = 75
+    BorderSpacing.Left = 25
+    BorderSpacing.Top = 25
+    BorderSpacing.Right = 10
+    Caption = 'Введите a :'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label1
+    AnchorSideRight.Control = Edit2
+    Left = 25
+    Height = 20
+    Top = 90
+    Width = 76
+    BorderSpacing.Left = 25
+    BorderSpacing.Top = 65
+    BorderSpacing.Right = 1
+    Caption = 'Введите b :'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Button1
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Edit2
+    Left = 110
+    Height = 28
+    Top = 24
+    Width = 74
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Left = 85
+    BorderSpacing.Top = 25
+    BorderSpacing.Right = 400
+    BorderSpacing.Bottom = 30
+    TabOrder = 1
+    Text = '3,5'
+  end
+  object Edit2: TEdit
+    AnchorSideLeft.Control = Label2
+    AnchorSideRight.Control = Button1
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Label3
+    Left = 110
+    Height = 28
+    Top = 82
+    Width = 74
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Left = 85
+    BorderSpacing.Right = 400
+    BorderSpacing.Bottom = 10
+    TabOrder = 2
+    Text = '-4,2'
+  end
+  object Memo1: TMemo
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 0
+    Height = 435
+    Top = 150
+    Width = 594
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Top = 150
+    Lines.Strings = (
+      'Результат :'
+    )
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideBottom.Control = Memo1
+    Left = 20
+    Height = 20
+    Top = 120
+    Width = 336
+    BorderSpacing.Left = 20
+    Caption = '(Действительные числа пишутся через запятую)'
+    Color = clWhite
+    ParentColor = False
+    Transparent = False
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '.re'
+    Left = 160
+    Top = 472
+  end
+  object MainMenu1: TMainMenu
+    Left = 96
+    Top = 472
+    object MenuItem1: TMenuItem
+      Caption = 'Открыть'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Сохранить'
+      OnClick = MenuItem2Click
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Сохранить отчёт'
+      OnClick = MenuItem3Click
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Справка'
+      OnClick = MenuItem4Click
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Выход'
+      OnClick = MenuItem5Click
+    end
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 40
+    Top = 472
+  end
+end
